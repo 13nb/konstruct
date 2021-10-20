@@ -1,0 +1,27 @@
+.nav
+    height: 65px
+    border: 1px solid #E6E6E6
+    &__wrapper
+        display: grid
+        grid-template-rows: 65px
+        grid-template-columns: repeat(2, 450px)
+        justify-content: space-between
+        align-items: center
+    &__logo
+        img
+            width: 80px
+            height: 18px
+    &__items
+        display: grid
+        grid-template:  65px / repeat(4, 105px)
+        align-items: center
+        &-link
+            width: 60px
+            a
+                font-weight: 600
+                font-size: 12px
+                text-decoration: none
+                color: $main-color
+                transition: .5s all
+                &:hover
+                    color: $second-color

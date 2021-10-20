@@ -1,0 +1,41 @@
+.story
+    position: relative
+    padding-top: 57px
+    min-height: 344px
+    &__divider
+        position: absolute
+        margin-top: 30px
+        width: 50px
+        border: 1px solid $second-color
+        left: 50%
+        transform: translateX(-50%)
+    &__title
+        position: absolute
+        font-size: 18px
+        text-align: center
+        color: $main-color
+        font-weight: bold
+        left: 50%
+        transform: translateX(-50%)
+    &__wrapper
+        padding-top: 70px
+        display: grid
+        grid-template: 300px / 410px 450px
+        column-gap: 30px
+    &__descr
+        font-size: 18px
+        line-height: 24px
+        color: $main-color
+        font-weight: bold
+        span
+            font-weight: normal
+            font-size: 13px
+            line-height: 23px
+    &__img
+        display: grid
+        grid-template: 230px / repeat(3, 140px)
+        justify-content: space-between
+        img
+            &:hover
+                box-shadow: 0 0 5px $main-color
+

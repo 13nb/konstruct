@@ -1,0 +1,67 @@
+.footer
+    min-height: 240px
+    padding-top: 42px
+    background: #141A20
+    &__wrapper
+        display: grid
+        grid-template: 150px / 250px auto auto
+        justify-content: space-around
+    &__konstruct
+        &-img
+            img
+                width: 102px
+                height: 23px
+        &-descr
+            padding-top: 27px
+            font-size: 11px
+            line-height: 19px
+            color: #ffff
+            letter-spacing: 0.85px
+    &__links
+        &-title
+            font-size: 15px
+            color: #ffff
+            font-weight: bold
+            margin-bottom: 20px
+        ul
+            padding-left: 0rem
+            li
+                list-style-type: none
+                a
+                    text-decoration: none
+                    font-size: 11px
+                    line-height: 25px
+                    color: #ffff
+                    transition: .3s all
+                    flex
+                    &:hover
+                        color: $second-color
+    &__contact
+        &-title
+            font-size: 15px
+            color: #ffff
+            font-weight: bold
+            margin-bottom: 18px
+        &-descr
+            font-size: 11px
+            line-height: 16px
+            color: #ffff
+            font-weight: normal
+        a
+            text-decoration: none
+            color: #ffff
+            &:hover
+                color: $second-color
+    &__copyrights
+        height: 60px
+        &-descr
+            position: absolute
+            font-weight: normal
+            font-size: 11px
+            line-height: 15px
+            color: #ffff
+            left: 50%
+            transform: translateX(-50%)
+            padding-top: 25px
+
+            

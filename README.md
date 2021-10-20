@@ -1,1 +1,1 @@
-# konstruct
+# konstruc
